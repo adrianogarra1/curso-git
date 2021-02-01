@@ -8,6 +8,7 @@ namespace Vetor
         static void Main(string[] args)
         {
             Console.Write("Informe o tamanho do vetor: ");
+            Console.WriteLine();
             int n = int.Parse(Console.ReadLine());
 
             Product[] vect = new Product[n];
